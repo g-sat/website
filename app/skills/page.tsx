@@ -17,7 +17,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "Rust", "C++"]
+      skills: ["JavaScript", "TypeScript", "Python", "Rust", "C++","C","SQL","PHP"]
     },
     {
       title: "Front-end Technologies",
