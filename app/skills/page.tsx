@@ -17,7 +17,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "Rust", "C++","C","SQL","PHP"]
+      skills: ["JavaScript", "TypeScript", "Python", "Rust", "C++"]
     },
     {
       title: "Front-end Technologies",
@@ -47,7 +47,6 @@ export default function Skills() {
           ))}
         </div>
       </main>
-      <Footer />
     </div>
   )
 }
