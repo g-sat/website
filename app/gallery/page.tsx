@@ -42,7 +42,7 @@ export default function Gallery() {
           ))}
         </div>
       </main>
-      <Footer />
+{/*       <Footer /> */}
     </>
   )
 }
