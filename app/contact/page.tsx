@@ -44,7 +44,7 @@ export default function Contact() {
                 <Mail className="mr-2" /> your.email@example.com
               </a>
             </div> */}
-          </div>
+{/*           </div> */}
         </div>
       </main>
       <Footer />
