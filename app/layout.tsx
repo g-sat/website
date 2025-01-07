@@ -29,6 +29,7 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <script src="/dragon.js" defer></script>
       </body>
     </html>
   )
