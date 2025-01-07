@@ -31,7 +31,7 @@ export default function Contact() {
             </form>
           </div>
 
-          <div className="bg-dark-blue p-6 rounded-lg shadow-lg">
+{/*           <div className="bg-dark-blue p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-4 text-neon-blue">Connect with Me</h2>
             <div className="space-y-4">
               <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-300 hover:text-neon-pink transition-colors duration-300">
@@ -43,7 +43,7 @@ export default function Contact() {
               <a href="mailto:your.email@example.com" className="flex items-center text-gray-300 hover:text-neon-pink transition-colors duration-300">
                 <Mail className="mr-2" /> your.email@example.com
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
