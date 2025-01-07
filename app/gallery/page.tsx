@@ -32,6 +32,7 @@ export default function Gallery() {
   }, [])
 
   return (
+<<<<<<< HEAD
     <main className="min-h-screen relative">
       <div
         className="custom-cursor"
@@ -49,6 +50,20 @@ export default function Gallery() {
         ))}
       </div>
     </main>
+=======
+    <>
+      <main>
+        <h1 className="glitch-text" data-text="Gallery">Gallery</h1>
+        <div ref={galleryRef} className="gallery-container">
+          {[1, 2, 3, 4, 5, 6].map((i) => (
+            <div key={i} className="gallery-image" data-speed={Math.random() * 0.5 + 0.5}>
+              <img src={`/placeholder.svg?height=300&width=400&text=Cyberpunk+Image+${i}`} alt={`Cyberpunk Image ${i}`} />
+            </div>
+          ))}
+        </div>
+      </main>
+    </>
+>>>>>>> origin/main
   )
 }
 

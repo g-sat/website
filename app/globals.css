@@ -8,6 +8,7 @@
   --color-neon-blue: #00ffff;
   --color-neon-purple: #bf00ff;
   --color-neon-green: #39ff14;
+  --color-dark-blue: #01203e;
 }
 
 * {
@@ -71,8 +72,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.8);
   border-bottom: 2px solid var(--color-neon-blue);
   padding: 1rem 0;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
 }
 
@@ -358,6 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+<<<<<<< HEAD
 .skill-card {
   transition: all 0.3s ease;
 }
@@ -383,6 +387,14 @@ h1, h2, h3, h4, h5, h6 {
 body:hover .custom-cursor {
   width: 30px;
   height: 30px;
+=======
+.shadow-neon {
+  box-shadow: 0 0 10px var(--color-neon-blue);
+}
+
+.shadow-neon-intense {
+  box-shadow: 0 0 20px var(--color-neon-blue), 0 0 40px var(--color-neon-purple);
+>>>>>>> origin/main
 }
 
 @media (max-width: 768px) {

@@ -24,12 +24,18 @@ export default function RootLayout({
       </head>
       <body className={`${orbitron.className} ${chakraPetch.className}`}>
         <div id="cyberpunk-bg"></div>
-        <Navbar />
-        <div className="cyberpunk-container">
-          {children}
+        <div className="flex flex-col min-h-screen">
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
         </div>
+<<<<<<< HEAD
         <Footer />
         <script src="/dragon.js" defer></script>
+=======
+>>>>>>> origin/main
       </body>
     </html>
   )
