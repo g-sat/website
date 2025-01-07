@@ -1,5 +1,3 @@
-import { Navbar } from '../../components/navbar'
-import { Footer } from '../../components/footer'
 import { Button } from '@/components/ui/button'
 import { ExternalLink } from 'lucide-react'
 
@@ -41,7 +39,6 @@ export default function Projects() {
 
   return (
     <div className="cyberpunk-bg min-h-screen flex flex-col">
-      <Navbar />
       <main className="flex-grow container mx-auto px-4 py-12">
         <h1 className="text-5xl font-bold mb-8 text-center glitch-text" data-text="Projects">Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -66,7 +63,6 @@ export default function Projects() {
           ))}
         </div>
       </main>
-      <Footer />
     </div>
   )
 }
